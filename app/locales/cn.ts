@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "点👉 [设置](/#/settings) 👈输入访问密码: qqqun574069533\n\n\n[hi.fall.land](https://hi.fall.land)\n[ha.fall.land](https://ha.fall.land)\n[ho.fall.land](https://ho.fall.land)",
   },
   Auth: {
     Title: "需要密码",
@@ -233,7 +233,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "我是[深圳FALL读书会](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)的Ai助理 ,有什么可以帮助你的吗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

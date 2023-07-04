@@ -116,18 +116,18 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
-        </div>
+        {/*<div className={styles["sidebar-title"]} data-tauri-drag-region>
+          深圳FALL读书会.ha
+        </div>*/}
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          QQ群<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533">574069533</a> &emsp;活动召集：<br />①每周一20~22点市民中心[事业沙龙]闲聊<br />②每周三20~22点深圳湾公园站海边漫步<br />③2023.7.16-线下交流-《失控》[美]凯文·凯利<br />
         </div>
-        <div className={styles["sidebar-logo"] + " no-dark"}>
+        {/*<div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
-        </div>
+        </div>*/}
       </div>
 
-      <div className={styles["sidebar-header-bar"]}>
+      {/*<div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -142,7 +142,7 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
-      </div>
+      </div>*/}
 
       <div
         className={styles["sidebar-body"]}

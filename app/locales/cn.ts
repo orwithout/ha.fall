@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "为防网络爬虫，已设置了密码。请先点击👉[设置](/#/settings)👈输入访问密码\n要获取当前密码,请扫码关注微信公众号：![回十回](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzI4NDkwNDIwMA==&mid=2247483823&idx=1&sn=284b8c76c1d7bb6b7272f12857c1abf9&send_time=) 回复：ha.fall.land\n也可加入我们的QQ群[574069533](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)进行反馈和密码获取，谢谢~",
   },
   Auth: {
     Title: "需要密码",
@@ -266,7 +266,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "(我是[深圳FALL读书会](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)QQ群[574069533](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)的Ai助理: 富得流油🤗\n(我的默认配置为gpt-3.5, 您可以免费使用。如要使用gpt-4, 请先将就看一下此教程，完善的教程已经在路上了：👉 [教程](https://api2d.com/wiki/app) \n\n好啦, 有什么我可以帮助你的吗?",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

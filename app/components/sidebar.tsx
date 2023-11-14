@@ -154,18 +154,18 @@ export function SideBar(props: { className?: string }) {
       }}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
-        </div>
+        {/*<div className={styles["sidebar-title"]} data-tauri-drag-region>
+          Ai.富得流油.by深圳FALL读书会
+        </div>*/}
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          本网站已转移到 白嫖大师: [白嫖大师https://baipiao.guru](https://baipiao.guru)\n学习交流QQ群<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533">574069533</a> &emsp;活动召集：<br />①10.29日下午《弗兰肯斯坦》读书会<br />②每周一20~22点市民中心-沙龙闲聊<br />③每周三20~22点深圳湾公园站-海边漫步<br />③待定<br />
         </div>
-        <div className={styles["sidebar-logo"] + " no-dark"}>
+        {/*<div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
-        </div>
+        </div>*/}
       </div>
 
-      <div className={styles["sidebar-header-bar"]}>
+      {/*<div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
           text={shouldNarrow ? undefined : Locale.Mask.Name}
@@ -186,7 +186,7 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
-      </div>
+      </div>*/}
 
       <div
         className={styles["sidebar-body"]}

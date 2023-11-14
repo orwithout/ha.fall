@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "本网站已转移到 白嫖大师: [白嫖大师https://baipiao.guru](https://baipiao.guru)\n交流学习, 请搜索公众号（正在准备）: ![回十回](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzI4NDkwNDIwMA==&mid=2247483823&idx=1&sn=284b8c76c1d7bb6b7272f12857c1abf9&send_time=) \nQQ群[574069533](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)~",
   },
   Auth: {
     Title: "需要密码",
@@ -342,7 +342,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "本网站已转移到 白嫖大师: [白嫖大师https://baipiao.guru](https://baipiao.guru) \n(我是[深圳FALL读书会](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)QQ群[574069533](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=V7gTtUcONH9WINPF19IMi6kxtm6ajrPb&authKey=jc2VNNZYq8Z2nx0%2FibHOXTDqhB1IUxzRsl0FCfv0837ecQYqyCYUsIsWcBfwPtk6&noverify=0&group_code=574069533)的Ai助理: 富得流油🤗",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
